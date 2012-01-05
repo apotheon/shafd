@@ -139,7 +139,7 @@ standard that already exists in a formalized specification.  This project is an
 attempt to do so, and to support the development of standardized tools to
 automate management of auxiliary file defaults.  With effective advocacy and
 conscientious stewardship, the result of this project should be the solution to
-problems 1 and 2.  There is no known cure for ailment 3.
+problems 1 and 2.  There is no known cure for ailment 3, and it is an affliction common to standards and specifications of all stripes.
 
 ## Conclusion
 
