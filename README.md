@@ -93,9 +93,53 @@ necessities of auxiliary file tracking and default degradation overly complex
 and difficult to find.  It also uses interpretations of the FHS in ways that
 may tend to harm portability.
 
-### De Facto POSIX/Unix Standard
+### De Facto POSIX/Unix Auxiliary File Standard
 
-more to come
+For decades, a set of common practices has evolved that developers of user
+applications for POSIX/Unix platforms providing fair portability, easily
+discoverable structure, modularity, and convenience for both developers and
+users.  These common practices have not been defined by a formalized standard,
+but a de facto standard has arisen as an emergent phenomenon over a period of
+decades.  This de facto standard generally possesses the following
+characteristics:
+
+* traditional
+
+* well understood
+
+* fairly simple to implement and use
+
+* modular
+
+* discoverable
+
+* portable
+
+It also does not tend to fall prey to problems like littering your filesystem
+hierarchy with infrastructural directory paths whose only purpose is to
+maintain compliance with the standard, nor does it invade directories designed
+to manage data and configuration files for core system components with data and
+configuration files that serve the purposes of user level applications that may
+come and go over time, quickly making those directories more difficult to
+manage.
+
+This de facto standard has had precisely three problems:
+
+1. Many people are not aware of it, because it has not been described in a
+   formal specification before this.
+
+2. It competes with alternatives that enjoy the social benefits of formalized
+   standardization for mindshare amongst the members of a standards-conscious
+   community of developers.
+
+3. There are people who do not use it.
+
+Rather than develop a new standard, it is preferable to simply describe a
+standard that already exists in a formalized specification.  This project is an
+attempt to do so, and to support the development of standardized tools to
+automate management of auxiliary file defaults.  With effective advocacy and
+conscientious stewardship, the result of this project should be the solution to
+problems 1 and 2.  There is no known cure for ailment 3.
 
 ## Conclusion
 
