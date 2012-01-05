@@ -4,7 +4,7 @@ This specification establishes a clear guide to the common practices of default
 paths used to store auxiliary files for applications in the POSIX/Unix
 developer culture.
 
-## Rationale
+## The State Of The World
 
 POSIX/Unix applications often use configuration and data files that are
 particular to those applications.  In cases where an application depends on
@@ -134,6 +134,8 @@ This de facto standard has had precisely three problems:
 
 3. There are people who do not use it.
 
+## Rationale
+
 Rather than develop a new standard, it is preferable to simply describe a
 standard that already exists in a formalized specification.  This project is an
 attempt to do so, and to support the development of standardized tools to
@@ -143,10 +145,10 @@ problems 1 and 2.  There is no known cure for ailment 3, and it is an affliction
 
 ## Conclusion
 
-SHAFD is a bad mother . . .
-
-"Shut yo' mouf!"
-
-I'm just talkin' 'bout SHAFD.
-
-"We can dig it!"
+> SHAFD is a bad mother . . .
+>
+> "Shut yo' mouf!"
+>
+> I'm just talkin' 'bout SHAFD.
+>
+> "We can dig it!"
