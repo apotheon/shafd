@@ -74,7 +74,7 @@ conflicting filesystem hierarchy specifications.
 Where the FHS deals with overall virtual filesystem design, it does not have
 much to say about the choices made by applications with regard to their own
 auxiliary file paths unrelated to the core system.  The XDG Base Directory
-Specification attempts to fill that gap.
+Specification is a freedesktop.org project that attempts to fill that gap.
 
 A specification that explicitly establishes conformance to the FHS while
 providing a clear and portable set of guidelines for defining the default paths
@@ -84,8 +84,18 @@ better, the XDG BDS also does so in a way that provides for portable,
 standardized approaches to defining non-default paths on an individual basis.
 
 The XDG BDS itself, however, suffers some problems.  For example, it does not
-take into account any filesystem hierarchy practices apart from the FHS in 
+take into account any filesystem hierarchy practices apart from the FHS in its
+considerations, unless it takes them into account by consciously contradicting
+them.  It makes decisions about how to organize things within FHS-compliant
+virtual filesystem hierarchies that interpret the FHS in ways that may prove
+counterproductive for both developers and users, such as by making the
+necessities of auxiliary file tracking and default degradation overly complex
+and difficult to find.  It also uses interpretations of the FHS in ways that
+may tend to harm portability.
 
+### De Facto POSIX/Unix Standard
+
+more to come
 
 ## Conclusion
 
