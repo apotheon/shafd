@@ -8,7 +8,7 @@ developer culture.
 
 At present, the working copy of the specification is:
 
-    [Working Specification Document](doc/tip/spec.md)
+[Working Specification Document](doc/tip/spec.md)
 
 ## The State Of The World
 
