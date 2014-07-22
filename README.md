@@ -109,17 +109,17 @@ standard, but a de facto standard has arisen as an emergent phenomenon over a
 period of decades.  This de facto standard generally possesses the following
 characteristics:
 
-* discoverable
-
-* fairly simple to implement and use
-
-* modular
-
-* portable
+* well understood
 
 * traditional
 
-* well understood
+* portable
+
+* modular
+
+* fairly simple to implement and use
+
+* discoverable
 
 It also does not tend to fall prey to problems like littering your filesystem
 hierarchy with infrastructural directory paths whose only purpose is to
