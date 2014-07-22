@@ -4,6 +4,12 @@ This specification establishes a clear guide to the common practices of default
 paths used to store auxiliary files for applications in the POSIX/Unix
 developer culture.
 
+## Specification
+
+At present, the working copy of the specification is:
+
+    [Working Specification Document](doc/tip/spec.md)
+
 ## The State Of The World
 
 POSIX/Unix applications often use configuration and data files that are
