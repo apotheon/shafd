@@ -102,11 +102,11 @@ may tend to harm portability.
 ### De Facto POSIX/Unix Auxiliary File Standard
 
 For decades, a set of common practices has evolved that developers of user
-applications for POSIX/Unix platforms providing fair portability, easily
-discoverable structure, modularity, and convenience for both developers and
-users.  These common practices have not been defined by a formalized standard,
-but a de facto standard has arisen as an emergent phenomenon over a period of
-decades.  This de facto standard generally possesses the following
+applications for POSIX/Unix platforms employ to provide fair portability,
+easily discoverable structure, modularity, and convenience for both developers
+and users.  These common practices have not been defined by a formalized
+standard, but a de facto standard has arisen as an emergent phenomenon over a
+period of decades.  This de facto standard generally possesses the following
 characteristics:
 
 * traditional
