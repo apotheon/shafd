@@ -34,3 +34,6 @@ intervention may store their configuration files in a single directory.  This
 directory should be a tool-specific subdirectory of `~/.config`.
 
 ### System Directories
+
+Standard/default location for system-wide auxiliary files should be in a
+tool-specific . . .
